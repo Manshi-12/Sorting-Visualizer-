@@ -1,25 +1,38 @@
-# Sorting_Visualizer
+# 📊 Sorting Visualizer
 
-A web application showcasing the inner workings of sorting algorithms.
+An interactive JavaScript-based sorting visualizer that demonstrates how different sorting algorithms work in real time. Users can choose from multiple algorithms, control the number of bars, and adjust the sorting speed for a personalized experience.
 
-Implemented algorithms:
-1) Bubble sort
-2) Selection sort
-3) Insertion sort
-4) Merge sort
-5) Quick sort
-6) Heap sort
+## ✨ Features
 
-Features:
-1) Colored representation of step being executed.
-  1.1) Blue:default
-  1.2) Yellow: Being compared
-  1.3) Red: Identified as in incorrect position and to be moved
-  1.4) Green: In correct position
-2) 3 Controls for visualizations
-  2.1) Speed of visualization (5 speed levels)
-  2.2) Data size ()
-  2.3) Generation of new data (Randomly generate new data).
-4) Time and Space complexity of algorithm being visualized.
+- Visualize 6 popular sorting algorithms:
+  - Bubble Sort
+  - Selection Sort
+  - Insertion Sort
+  - Merge Sort
+  - Quick Sort
+  - Heap Sort
+- Adjustable bar count and animation speed
+- Real-time graphical representation of the sorting process
+- Responsive and user-friendly UI
 
-Take a look at live version: https://kethantummala.github.io/Sorting_Visualizer/
+## 🚀 How to Use
+
+1. Select a sorting algorithm from the dropdown menu.
+2. Adjust the number of bars and the sorting speed using the sliders.
+3. Click **Sort** to start the animation.
+4. Click **Generate New Array** to shuffle and reset.
+
+## 🛠️ Technologies Used
+
+- HTML5
+- CSS3
+- JavaScript (ES6+)
+- DOM manipulation for dynamic rendering
+
+## 📦 Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Manshi-12/Sorting-Visualizer.git
+    ```
+2. Run: index.html
